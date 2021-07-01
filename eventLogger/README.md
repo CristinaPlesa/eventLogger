@@ -1,6 +1,8 @@
 # Getting Started with Create React App
-
+<img src = "../Cock-A-Doodle-Who.png">
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+<!-- <img src="./src/img/Help-Queue.png" alt="Diagram of Project Components"> -->
 
 ## Available Scripts
 

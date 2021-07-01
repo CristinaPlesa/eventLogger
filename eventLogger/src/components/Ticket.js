@@ -4,9 +4,9 @@ import PropTypes from "prop-types";
 function Ticket(props) {
   return (
     <React.Fragment>
-      <p><em>{props.names}</em></p>
-      <h3>{props.location } - {props.birdMake} - {props.birdModel}</h3>
-      <h3>{props.birdColor} - {props.beakSize} - {props.beakColor}</h3>
+      <p><em>Name  {props.names}</em></p>
+      <h3>Location = {props.location } - BirdMake = {props.birdMake} - BirdModel = {props.birdModel}</h3>
+      <h3>BirdColor = {props.birdColor} - BeakSize = {props.beakSize} - BeakColor = {props.beakColor}</h3>
       <hr />
     </React.Fragment>
   );
