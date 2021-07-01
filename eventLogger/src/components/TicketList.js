@@ -8,7 +8,7 @@ function TicketList(props) {
   return (
     <React.Fragment>
       <hr />
-      {props.ticketList.map((ticket, index) =>
+      {props.ticketList.map((ticket) =>
         <Ticket
           names={ticket.names}
           location={ticket.location}
@@ -17,14 +17,16 @@ function TicketList(props) {
           birdColor={ticket.birdColor}
           beakSize={ticket.beakSize}
           beakColor={ticket.beakColor}
-          key={index} />
+          id={ticket.id}
+          key={ticket.id} />
       )}
     </React.Fragment>
   );
 }
 // Add propTypes for ticketList.
 TicketList.propTypes = {
-  ticketList: PropTypes.array
+  ticketList: PropTypes.array,
+  onTicketSelection: PropTypes.func
 };
 
 export default TicketList;
