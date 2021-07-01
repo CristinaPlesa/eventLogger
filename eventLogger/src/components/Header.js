@@ -1,5 +1,5 @@
 import React from "react";
-import FunnyChickenWarrior from "./../img/Funny-Chicken-Warrior-Picture.jpg";
+import FunnyChickenWarrior from "../img/Funny-Chicken-Warrior-Picture.jpg";
 
 
 function Header() {
