@@ -1,12 +1,13 @@
 import React from "react";
-import FunnyChickenWarrior from "../img/Funny-Chicken-Warrior-Picture.jpg";
+import FunnyChickenPink from "../img/Funny-Pink-Werid-Chicken.jpg";
 
 
 function Header() {
   return (
     <React.Fragment>
       <h1> Cock-A-Doodle-Who????</h1>
-      <img src={FunnyChickenWarrior} alt="an image of a awesome chicken" />
+      <img src={FunnyChickenPink} alt="a awesome chicken" />
     </React.Fragment>
   )
 }
+export default Header;
